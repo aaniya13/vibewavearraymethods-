@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VibeWave | JavaScript Array Methods</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+
+    <header>
+
+        <div class="logo">
+            ♫ VibeWave
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#methods">Array Methods</a>
+            <a href="#playground">Try It</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="tagline">
+                JAVASCRIPT • MUSIC • TECHNOLOGY
+            </p>
+
+            <h1>
+                Explore the Magic of
+                <span>Array Methods.</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover how JavaScript built-in array methods
+                make working with music collections easier,
+                smarter and more interactive.
+            </p>
+
+            <a href="#methods" class="hero-button">
+                Explore Methods ✨
+            </a>
+
+        </div>
+
+        <div class="hero-visual">
+
+            <div class="music-icon">
+                🎧
+            </div>
+
+            <div class="equalizer">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <p>LET THE CODE PLAY</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ARRAY METHODS SECTION -->
+
+    <section class="methods-section" id="methods">
+
+        <div class="section-heading">
+
+            <p>DISCOVER THE CONCEPT</p>
+
+            <h2>
+                JavaScript
+                <span>Array Methods</span>
+            </h2>
+
+            <p>
+                Powerful built-in methods to manipulate
+                and manage arrays.
+            </p>
+
+        </div>
+
+        <div class="methods-grid" id="methodsGrid">
+
+            <!-- METHOD CARDS WILL BE ADDED USING JAVASCRIPT -->
+
+        </div>
+
+    </section>
+
+
+    <!-- INTERACTIVE PLAYGROUND -->
+
+    <section class="playground" id="playground">
+
+        <div class="section-heading">
+
+            <p>INTERACTIVE EXPERIENCE</p>
+
+            <h2>
+                Array Methods
+                <span>Playground</span>
+            </h2>
+
+            <p>
+                Select a method and see how JavaScript
+                works in real time.
+            </p>
+
+        </div>
+
+        <div class="playground-box">
+
+            <label for="methodSelect">
+                Choose an Array Method
+            </label>
+
+            <select id="methodSelect">
+
+                <option value="forEach">forEach()</option>
+                <option value="map">map()</option>
+                <option value="filter">filter()</option>
+                <option value="find">find()</option>
+                <option value="sort">sort()</option>
+                <option value="reduce">reduce()</option>
+                <option value="includes">includes()</option>
+                <option value="some">some()</option>
+                <option value="every">every()</option>
+
+            </select>
+
+            <button id="runButton">
+                Run Array Method ✨
+            </button>
+
+            
+<!-- METHOD EXPLANATION -->
+
+<div class="method-explanation" id="methodExplanation">
+
+    <h3>📚 About This Method</h3>
+
+    <p id="methodDescription">
+        Select an array method to learn more about it.
+    </p>
+
+</div>
+
+<!-- JAVASCRIPT CODE DISPLAY -->
+
+<div class="code-display">
+
+    <h3>💻 JavaScript Code</h3>
+
+    <p>Understand how this array method works:</p>
+
+    <pre id="methodCode">
+    Select a method to view its code.
+</pre>
+
+<button id="copyCodeButton" class="copy-code-btn">
+    📋 Copy Code
+</button>
+
+<p id="copyMessage"></p>
+    </div>
+
+            <div class="output-area">
+
+                <h3>💻 Output</h3>
+
+                <pre id="output">Your result will appear here...</pre>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SONG COLLECTION SECTION -->
+
+<section class="songs-section" id="songs">
+
+    <h2>🎵 Our Music Collection</h2>
+
+    <p>Explore the songs in our VibeWave collection.</p>
+
+    <div id="arraySongList"></div>
+
+</section>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about-section" id="about">
+
+        <p>ABOUT THIS PROJECT</p>
+
+        <h2>Learning JavaScript with VibeWave 💜</h2>
+
+        <p>
+            This project demonstrates different built-in
+            array methods of JavaScript through a creative
+            music streaming website concept.
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>♫ VibeWave</h2>
+
+        <p>
+            Made with 💜 using HTML, CSS and JavaScript
+        </p>
+
+        <p>
+            JavaScript Built-in Array Methods Project
+        </p>
+
+    </footer>
+    
+    <!-- BACK TO TOP BUTTON -->
+
+<button id="backToTop"
+    title="Back to Top"
+    onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    ↑
+</button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
